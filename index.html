@@ -1,96 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
     <title>나만의 동기부여 홈화면 만들기</title>
 
+
     <script src="index.js"></script>
+
+
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 
-        * {
-            font-family: 'Poppins', sans-serif;
-        }
-        body {
-            margin: 0;
-        }
-        body {
-	        background-image: url("https://photo.coolenjoy.co.kr/data/editor/2003/Bimg_0a7e3e52ec30f86198073fd83ade09e7_iscy.jpg");
-	        background-position: center;
-            background-size: cover;
-            
-            color: white;
-        }
-    
-        .time {
-            font-size: 170vw;
-            font-weight: bold;
-        }
+      * {
+        font-family: "Poppins", sans-serif;
+      }
 
-        .greeting{
-            font-size: 70vw;
-            font-weight: bold;
-        }
 
-        .todo{
-            font-size: 50vw;
-        }
+      body {
+        margin: 0;
+      }
 
-        .author{
-            font-size: 40vw;
-            font-style: italic;
-            font-weight: bold;
-        }
 
-        .content{
-            font-size: 20vw;
-            font-weight: bold;
-        }
+      body {
+        background-image: url("https://photo.coolenjoy.co.kr/data/editor/2003/Bimg_0a7e3e52ec30f86198073fd83ade09e7_iscy.jpg");
 
-        .main{
-            width: 100vw;
-            height: 80vh;
 
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
+        background-position: center;
 
-        .quote{
-            width: 80vw;
-            height: 20vh;
 
-            margin: 0 auto 0 auto;
+        background-size: cover;
 
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
 
+        color: white;
+      }
+
+
+      .time {
+        font-size: 17px;
+
+
+        font-weight: bold;
+      }
+
+
+      .greeting {
+        font-size: 17px;
+
+
+        font-weight: bold;
+      }
+
+
+      .todo {
+        font-size: 17px;
+      }
+
+
+      .author {
+        font-size: 17px;
+
+
+        font-style: italic;
+
+
+        font-weight: bold;
+      }
+
+
+      .content {
+        font-size: 17px;
+
+
+        font-weight: bold;
+      }
+
+
+      .main {
+        width: 100vw;
+
+
+        height: 80vh;
+
+
+        display: flex;
+
+
+        flex-direction: column;
+
+
+        align-items: center;
+
+
+        justify-content: center;
+      }
+
+
+      .quote {
+        width: 80vw;
+
+
+        height: 20vh;
+
+
+        margin: 0 auto 0 auto;
+
+
+        display: flex;
+
+
+        flex-direction: column;
+
+
+        align-items: center;
+
+
+        justify-content: center;
+      }
     </style>
 
-    <script>
-    </script>
-</head>
 
-<body>
+    <script></script>
+  </head>
+
+
+  <body>
     <div class="main">
-        <div id="time" class="time">12:00</div>
-        <div class="greeting">[ 오늘도 행복하자 ]</div>
-        <div class="todo">★ 오늘 해야할일 미루지말자 ★</div>
-    </div>
-    <div class="quote">
-        <div id="author" class="author">- 명언의 저자 -</div>
-        <div id="content" class="content">" 명언의 내용 "</div>
-    </div>
-</body>
+      <div id="time" class="time">12:00</div>
 
+
+      <div class="greeting">[ 오늘도 행복하자 ]</div>
+
+
+      <div class="todo">★ 오늘 해야할일 미루지말자 ★</div>
+    </div>
+
+
+    <div class="quote">
+      <div id="author" class="author">- 명언의 저자 -</div>
+
+
+      <div id="content" class="content">" 명언의 내용 "</div>
+    </div>
+  </body>
 </html>
